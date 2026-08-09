@@ -50,7 +50,7 @@ print(f"Avg WT: {sjf_avg_wt}")
 print()
 print("FCFS")
 
-lst = sorted(processes, key=lambda x: x[1])   # AT onujayi sort
+lst = sorted(processes, key=lambda x: x[1])  
 print(lst)
 
 ct = []
